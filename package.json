@@ -1,0 +1,23 @@
+{
+  "name": "projeto-florescer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass style/style.scss style/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcela093/projeto-florescer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcela093/projeto-florescer/issues"
+  },
+  "homepage": "https://github.com/marcela093/projeto-florescer#readme",
+  "devDependencies": {
+    "sass": "^1.23.0"
+  }
+}
