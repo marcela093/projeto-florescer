@@ -2,4 +2,12 @@ body {
   background-color: white;
 }
 
+.carrossel {
+  align-items: center;
+}
+
+.carrossel h3 {
+  color: #68afe3;
+}
+
 /*# sourceMappingURL=style.css.map */
