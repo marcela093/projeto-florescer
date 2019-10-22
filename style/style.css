@@ -30,6 +30,8 @@ header {
 
 header h1 {
   color: #f8b2cd;
+  font-family: "SantEliaBold";
+  font-size: 4.5rem;
 }
 
 .article {
