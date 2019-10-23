@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {"version":3,"sourceRoot":"","sources":["scss/_body.scss","scss/_header.scss","scss/_article.scss","scss/_main.scss","scss/_section_parceiros.scss","scss/_section_carrossel.scss"],"names":[],"mappings":"AAEA;EACI;EACA;;AAKJ;EACI;EACA;;AAKJ;EACI;EACA;;AAIJ;EACI;EACA;;AAGJ;EACI;EACA;;AC7BJ;EACI;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EAEA;;;ACbJ;EACI;EACA;EACA;EACA;;;AAKJ;EACI;EACA;;;AAIJ;EACI;EACA;EACA;;;AAIJ;EACI;EACA;;;ACzBJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;;;ADrBJ;EACI;EACA;EACA;EACA;;;AAKJ;EACI;EACA;;;AAIJ;EACI;EACA;EACA;;;AAIJ;EACI;EACA;;;AEzBJ;EACI;EACA;EACA;EACA;EACA;;;AAIJ;EACI;EACA;;;AAGJ;EACI;;;AAGJ;EACI;EACA;EACA;EACA;;;ACtBJ;EACI;;;AAGJ;EACI;EACA","file":"style.css"}
 =======
 <<<<<<< HEAD
@@ -7,3 +8,6 @@
 {"version":3,"sourceRoot":"","sources":["scss/_body.scss","scss/_header.scss","scss/_article.scss","scss/_main.scss","scss/_section_parceiros.scss","scss/_section_carrossel.scss"],"names":[],"mappings":"AAEA;EACI;EACA;;AAKJ;EACI;EACA;;AAKJ;EACI;EACA;;AAIJ;EACI;EACA;;AAGJ;EACI;EACA;;AC7BJ;EACI;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;ACZJ;EACI;EACA;EACA;EACF;;;AAGF;EACI;EACA;;;AAIJ;EACI;EACA;EACA;;;ACjBJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;;;AAGJ;EACI;EACA;;;ADrBJ;EACI;EACA;EACA;EACF;;;AAGF;EACI;EACA;;;AAIJ;EACI;EACA;EACA;;;AEjBJ;EACI;EACA;EACA;EACA;EACA;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;EACA;EACA;EACA;;;ACpBJ;EACI;;;AAGJ;EACI","file":"style.css"}
 >>>>>>> 8999104356881befe1cd1c68c8018e1d92251283
 >>>>>>> 363b48fdccdc9c87f8fd990103056d52c066b748
+=======
+{"version":3,"sourceRoot":"","sources":["scss/_body.scss","scss/_footer2.scss"],"names":[],"mappings":"AAAA;EACI;;;ACDJ;EACI;EACA;;AAGJ;EACI;EACA;EACA","file":"style.css"}
+>>>>>>> b94bfb3a8bd0a1dbbc30014f70a5194c551d2fc2
