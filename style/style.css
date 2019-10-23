@@ -1,17 +1,46 @@
-/* Error: expected "{".
- *   ,
- * 3 | @import 'scss/section_carrossel';
- *   |                                 ^
- *   '
- *   style\style.scss 3:33  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: expected \"{\".\a   \2577 \a 3 \2502  @import 'scss/section_carrossel';\d\a   \2502                                  ^\a   \2575 \a   style\\style.scss 3:33  root stylesheet";
+@font-face {
+  font-family: "SantEliaRough";
+  src: url("../assets/fonts/SantEliaRoughAltBoldThrDEMO.otf");
 }
+@font-face {
+  font-family: "SantEliaLine";
+  src: url("../assets/fonts/SantEliaRoughLineThr.otf");
+}
+@font-face {
+  font-family: "SantEliaBold";
+  src: url("../assets/fonts/SantEliaScriptBoldDEMO.otf");
+}
+@font-face {
+  font-family: "SantEliaRoughLine";
+  src: url("../assets/fonts/SantEliaRoughLine.otf");
+}
+@font-face {
+  font-family: "SantEliaTwo";
+  src: url("../assets/fonts/SantEliaRoughLineTwo.otf");
+}
+.article {
+  display: flex;
+  align-items: baseline;
+}
+
+.article__texto {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+h3 {
+  color: #68b0e3;
+  font-family: "SantEliaBold";
+  font-size: 30px;
+}
+
+.carrossel {
+  align-items: center;
+}
+
+.carrossel h3 {
+  color: #68afe3;
+  font-family: "santeliabold";
+}
+
+/*# sourceMappingURL=style.css.map */

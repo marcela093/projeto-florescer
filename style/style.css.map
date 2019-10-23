@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"version":3,"sourceRoot":"","sources":["scss/_body.scss","scss/_section_carrossel.scss"],"names":[],"mappings":"AAAA;EACI;;;ACDJ;EACI;;;AAGJ;EACI","file":"style.css"}
-=======
-{"version":3,"sourceRoot":"","sources":["scss/_body.scss","scss/_article.scss"],"names":[],"mappings":"AAEA;EACI;EACA;;AAKJ;EACI;EACA;;AAKJ;EACI;EACA;;AAIJ;EACI;EACA;;AAGJ;EACI;EACA;;AC5BJ;EACI;EACA;;;AAGJ;EACI;EACA;;;AAKJ;EACI;EACA;EACA","file":"style.css"}
->>>>>>> 7b1e00c13bcb75d57143b2e47575ea89412b8449
+{"version":3,"sourceRoot":"","sources":["scss/_body.scss","scss/_article.scss","scss/_section_carrossel.scss"],"names":[],"mappings":"AAEA;EACI;EACA;;AAKJ;EACI;EACA;;AAKJ;EACI;EACA;;AAIJ;EACI;EACA;;AAGJ;EACI;EACA;;AC5BJ;EACI;EACA;;;AAGJ;EACI;EACA;;;AAKJ;EACI;EACA;EACA;;;AChBJ;EACI;;;AAGJ;EACI;EACA","file":"style.css"}
