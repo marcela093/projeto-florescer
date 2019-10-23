@@ -52,6 +52,11 @@ h3 {
   font-size: 30px;
 }
 
+.article__img {
+  max-width: 100%;
+  height: auto;
+}
+
 .main__img {
   height: 400px;
   width: 850px;
@@ -93,6 +98,11 @@ h3 {
   color: #68b0e3;
   font-family: "SantEliaBold";
   font-size: 30px;
+}
+
+.article__img {
+  max-width: 100%;
+  height: auto;
 }
 
 .parceiros {
