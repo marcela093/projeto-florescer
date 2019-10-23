@@ -1,0 +1,15 @@
+header{
+    height: 100%;
+}
+
+.img-carousel{
+    object-fit: cover;
+    object-position: 0 50%;
+    height:64vh;
+}
+
+header h1{
+    color: #f8b2cd;
+    font-family: "SantEliaBold";
+    font-size: 4.5rem;
+}
