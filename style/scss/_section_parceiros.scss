@@ -4,10 +4,12 @@
     font-size: 20px;
     display: flex;
     flex-direction: column;
+    
 }
 
 .parceiros_logos {
     width: 100px;
+    margin: 25px;
 }
 
 .parceiros__conteudo {
@@ -20,3 +22,19 @@
     color: #68afe3;
     font-family: "santeliabold";
 }
+
+// @media (max-width: 320px) { 
+//     .parceiros_logos {
+//         width: 25px;
+//         margin: 10px;
+//     }
+
+//     .parceiros h3 {
+//         font-size: 20px;
+//     }
+
+//     .parceiros__conteudo{
+//         font-size: 10px;
+//     }
+
+// }
