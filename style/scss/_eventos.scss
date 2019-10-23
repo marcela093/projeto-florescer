@@ -3,23 +3,19 @@
     src: url("...assets/SantEliaRoughLine.otf")
 }
 
-.eventos{
-    width: 20 px;
-    height: 30px;
-    display: flex;
+.eventos{    
+ 
 }
+
 
 .redes-sociais{
-    width: 33px;
-    height: 40px;
+    text-align-last: center;
 }
 
-.h3{
-    width: 30px;
-    height: 30px;
-}
 
-.img.imagem.eventos{
-    width: auto;
-    height: auto;
+.imagem-eventos{
+    // height:100%;
+    object-fit: cover;
+    object-position: 0 50%;
+    height: 35vh;
 }

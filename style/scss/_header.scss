@@ -6,13 +6,17 @@ header{
 .img-carousel{
     object-fit: cover;
     object-position: 0 50%;
-    height: 100vh;
+    height: 64vh;
 
 }
 
 header h1{
     color: #f8b2cd;
     font-family: "SantEliaBold";
-    // font-size: 4.5rem;
-    font-size: 32px;
+    font-size: 2.5rem;   
+}
+
+header p{
+    color: #68afe3;
+    font-size: 1.2rem;
 }

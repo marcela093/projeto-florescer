@@ -22,9 +22,12 @@ h3{
 
 
 .article__img{
-    max-width: 100%;
-    height: auto;  
-    
+    // max-width: 100%;
+    height: auto;     
+}
 
-    
+.img-article{
+    object-fit: cover;
+    object-position: 0 50%;
+    height: 35vh;
 }

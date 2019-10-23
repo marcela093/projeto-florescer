@@ -18,50 +18,10 @@
   font-family: "SantEliaTwo";
   src: url("../assets/fonts/SantEliaRoughLineTwo.otf");
 }
-header {
-  height: 100%;
-  width: 100%;
-}
-
-.img-carousel {
+.main__img {
   object-fit: cover;
   object-position: 0 50%;
-  height: 100vh;
-}
-
-header h1 {
-  color: #f8b2cd;
-  font-family: "SantEliaBold";
-  font-size: 32px;
-}
-
-.article {
-  display: flex;
-  align-items: baseline;
-  align-items: center;
-  justify-content: center;
-}
-
-.article__texto {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-}
-
-h3 {
-  color: #68b0e3;
-  font-family: "SantEliaBold";
-  font-size: 30px;
-}
-
-.article__img {
-  max-width: 100%;
-  height: auto;
-}
-
-.main__img {
-  height: 400px;
-  width: 850px;
-  align-items: center;
+  height: 27vh;
 }
 
 main {
@@ -102,8 +62,123 @@ h3 {
 }
 
 .article__img {
-  max-width: 100%;
   height: auto;
+}
+
+.img-article {
+  object-fit: cover;
+  object-position: 0 50%;
+  height: 35vh;
+}
+
+nav {
+  height: 15vh;
+  width: 100%;
+  background-color: white;
+}
+
+nav a {
+  color: #000000;
+}
+
+nav a:hover {
+  color: #f8b2cd;
+}
+
+.nav__menus a {
+  margin: 12px;
+}
+
+.nav__menus {
+  width: 40%;
+}
+
+.nav__menus > a, .nav__redes-sociais > a {
+  text-decoration: none;
+}
+
+.nav__redes-sociais {
+  width: 15%;
+}
+
+.nav__redes-sociais > a {
+  margin: 5px;
+}
+
+.foto-rosa {
+  height: 9vh;
+}
+
+.ajuda {
+  background-color: #68afe3;
+  width: 100%;
+  height: 35vh;
+  color: #000000;
+}
+
+.ajuda__texto {
+  width: 40%;
+}
+
+.ajuda__texto h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 12pt;
+}
+
+.ajuda__texto h2 {
+  color: #f8b2cd;
+  font-family: "SantEliaBold";
+}
+
+.ajuda__contato {
+  width: 80%;
+}
+
+.ajuda__contato p {
+  margin: 10px;
+}
+
+.ajuda__contato a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.ajuda__contato a:hover {
+  color: #f8b2cd;
+}
+
+header {
+  height: 100%;
+  width: 100%;
+}
+
+.img-carousel {
+  object-fit: cover;
+  object-position: 0 50%;
+  height: 64vh;
+}
+
+header h1 {
+  color: #f8b2cd;
+  font-family: "SantEliaBold";
+  font-size: 2.5rem;
+}
+
+header p {
+  color: #68afe3;
+  font-size: 1.2rem;
+}
+
+.carrossel {
+  align-items: center;
+  padding: 2%;
+}
+
+.carrossel h3 {
+  color: #68afe3;
+  font-family: "santeliabold";
+  padding: 7px;
 }
 
 .parceiros {
@@ -128,15 +203,21 @@ h3 {
   padding: 6px;
   color: #68afe3;
   font-family: "santeliabold";
+  padding: 2%;
 }
 
-.carrossel {
-  align-items: center;
+@font-face {
+  font-family: "SantElia";
+  src: url("...assets/SantEliaRoughLine.otf");
+}
+.redes-sociais {
+  text-align-last: center;
 }
 
-.carrossel h3 {
-  color: #68afe3;
-  font-family: "santeliabold";
+.imagem-eventos {
+  object-fit: cover;
+  object-position: 0 50%;
+  height: 35vh;
 }
 
 /*# sourceMappingURL=style.css.map */
