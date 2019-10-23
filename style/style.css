@@ -46,34 +46,24 @@ main h3 {
 .article {
   display: flex;
   align-items: baseline;
+  align-items: center;
+  justify-content: center;
 }
 
 .article__texto {
-  font-family: "SantElia";
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
 
-.parceiros {
-  text-align: center;
-  padding: 5px;
-  font-size: 20px;
-  display: flex;
-  flex-direction: column;
+h3 {
+  color: #68b0e3;
+  font-family: "SantEliaBold";
+  font-size: 30px;
 }
 
-.parceiros_logos {
-  width: 100px;
-  margin: 25px;
-}
-
-.parceiros__conteudo {
-  color: #f8b2cd;
-}
-
-.parceiros h3 {
-  text-align: center;
-  padding: 6px;
-  color: #68afe3;
-  font-family: "santeliabold";
+.article__img {
+  max-width: 100%;
+  height: auto;
 }
 
 nav {
@@ -152,6 +142,55 @@ nav a:hover {
 
 .ajuda__contato a:hover {
   color: #f8b2cd;
+}
+
+header {
+  height: 100%;
+}
+
+.img-carousel {
+  object-fit: cover;
+  object-position: 0 50%;
+  height: 64vh;
+}
+
+header h1 {
+  color: #f8b2cd;
+  font-family: "SantEliaBold";
+  font-size: 32px;
+}
+
+.carrossel {
+  align-items: center;
+}
+
+.carrossel h3 {
+  color: #68afe3;
+  font-family: "santeliabold";
+}
+
+.parceiros {
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.parceiros_logos {
+  width: 100px;
+  margin: 25px;
+}
+
+.parceiros__conteudo {
+  color: #f8b2cd;
+}
+
+.parceiros h3 {
+  text-align: center;
+  padding: 6px;
+  color: #68afe3;
+  font-family: "santeliabold";
 }
 
 /*# sourceMappingURL=style.css.map */
