@@ -1,11 +1,13 @@
 header{
     height: 100%;
+    width: 100%;
 }
 
 .img-carousel{
     object-fit: cover;
     object-position: 0 50%;
-    height:64vh;
+    height: 100vh;
+
 }
 
 header h1{
