@@ -18,6 +18,7 @@
   font-family: "SantEliaTwo";
   src: url("../assets/fonts/SantEliaRoughLineTwo.otf");
 }
+<<<<<<< HEAD
 .main__img {
   height: 400px;
   width: 850px;
@@ -41,6 +42,45 @@ main h3 {
 .main__texto {
   text-align: center;
   margin: 10px;
+=======
+nav {
+  height: 15vh;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+}
+
+nav a {
+  color: #000000;
+}
+
+nav a:hover {
+  color: #f8b2cd;
+}
+
+.nav__menus a {
+  margin: 12px;
+}
+
+.nav__menus {
+  width: 40%;
+}
+
+.nav__menus > a, .nav__redes-sociais > a {
+  text-decoration: none;
+}
+
+.nav__redes-sociais {
+  width: 15%;
+}
+
+.nav__redes-sociais > a {
+  margin: 5px;
+}
+
+.foto-rosa {
+  height: 9vh;
+>>>>>>> 0a60386ae7b6c908e678273f0360e8e8700ce1e0
 }
 
 .article {
@@ -52,6 +92,7 @@ main h3 {
   font-family: "SantElia";
 }
 
+<<<<<<< HEAD
 .parceiros {
   text-align: center;
   padding: 5px;
@@ -74,6 +115,45 @@ main h3 {
   padding: 6px;
   color: #68afe3;
   font-family: "santeliabold";
+=======
+.ajuda {
+  background-color: #68afe3;
+  width: 100%;
+  height: 35vh;
+  color: #000000;
+}
+
+.ajuda__texto {
+  width: 40%;
+}
+
+.ajuda__texto h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 12pt;
+}
+
+.ajuda__texto h2 {
+  color: #f8b2cd;
+  font-family: "SantEliaBold";
+}
+
+.ajuda__contato {
+  width: 80%;
+}
+
+.ajuda__contato p {
+  margin: 10px;
+}
+
+.ajuda__contato a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.ajuda__contato a:hover {
+  color: #f8b2cd;
+>>>>>>> 0a60386ae7b6c908e678273f0360e8e8700ce1e0
 }
 
 /*# sourceMappingURL=style.css.map */
