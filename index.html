@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/style.css">
-
-
     <title>Casa Florescer</title>
 </head>
 
@@ -95,8 +93,35 @@
             acolhedor que ajude a desenvolver e o potencializar cada individuo.
         </div>
     </main>
-    <section class="carrossel">
-        <!-- Jennifer -->
+    <section class="carrossel d-flex flex-column align-items-center">
+        <h3>Historias </h3>
+        <div id="carouselExampleIndicators" class="carousel slide w-50 " data-ride="carousel" data-enterval="3000">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <iframe class="d-flex" width="700" height="315" src="https://www.youtube.com/embed/UbKwMAcrLWI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="carousel-item">
+                    <iframe class="d-flex" width="700" height="315" src="https://www.youtube.com/embed/Wn81G7QDg7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </div>
+                <div class="carousel-item">
+                    <iframe class="d-flex" width="700" height="315" src="https://www.youtube.com/embed/VREo95kegew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
     </section>
     <section class="parceiros">
         <div class="parceiros__conteudo">
@@ -155,6 +180,7 @@
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>     
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./Js/jquery.js"></script>
 </body>
 
 </html>
