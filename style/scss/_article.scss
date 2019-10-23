@@ -2,12 +2,15 @@
 .article{    
     display: flex;    
     align-items: baseline;
+    align-items: center;
+    justify-content: center;
+    
+   
 }
 
 .article__texto{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-
 }
 
 
@@ -17,7 +20,11 @@ h3{
     font-size: 30px;    
 }
 
+
 .article__img{
+    max-width: 100%;
+    height: auto;  
+    
 
     
 }

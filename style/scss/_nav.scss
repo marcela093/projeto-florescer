@@ -1,0 +1,31 @@
+nav{
+    height: 15vh;
+    width: 100%;
+}
+
+nav a{
+    color: #000000;
+}
+
+nav a:hover{
+    color: #f8b2cd;
+}
+
+.nav__menus a{
+    margin: 12px;
+}
+.nav__menus{
+    width: 40%;
+}
+
+.nav__menus > a, .nav__redes-sociais > a{
+    text-decoration: none;
+}
+
+.nav__redes-sociais{
+    width: 15%;
+}
+
+.nav__redes-sociais > a{
+    margin: 5px;
+}
