@@ -25,6 +25,7 @@ header {
 
 .img-carousel {
   object-fit: cover;
+  object-position: 0 50%;
   height: 100vh;
 }
 
