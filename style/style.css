@@ -137,7 +137,6 @@ h3 {
   color: #68afe3;
   font-family: "santeliabold";
 }
-
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
       "Droid Sans Mono", monospace, monospace;
@@ -148,3 +147,5 @@ body::before {
   border-bottom: 2px solid black;
   content: 'Error: expected ";".\a   \2577 \a 9 \2502      display: flex;\d\a   \2502             ^\a   \2575 \a   style\\scss\\_eventos.scss 9:12  @import\a   style\\style.scss 3:9           root stylesheet';
 }
+
+/*# sourceMappingURL=style.css.map */
