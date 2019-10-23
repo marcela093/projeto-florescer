@@ -21,6 +21,8 @@
 .article {
   display: flex;
   align-items: baseline;
+  align-items: center;
+  justify-content: center;
 }
 
 .article__texto {
