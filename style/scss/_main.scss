@@ -1,7 +1,7 @@
-.main__img {
-    height: 400px;
-    width: 850px; 
-    align-items: center;
+.main__img {    
+    object-fit: cover;
+    object-position: 0 50%;
+    height: 40vh;
 }
 
 main {
@@ -23,8 +23,18 @@ main h3 {
     margin: 10px;
 }
 
-@media (max-width: 320px) { 
+@media (max-width: 768px) { 
 
+    .main__img {
+        width: 100%;
+    }
+    
+ }
+ @media (max-width: 320px) { 
 
-
+    .main__img {
+        width: auto;
+        height: auto;
+    }
+    
  }

@@ -18,6 +18,10 @@
   font-family: "SantEliaTwo";
   src: url("../assets/fonts/SantEliaRoughLineTwo.otf");
 }
+.container__principal {
+  width: 60%;
+}
+
 header {
   height: 100%;
   width: 100%;
@@ -26,13 +30,13 @@ header {
 .img-carousel {
   object-fit: cover;
   object-position: 0 50%;
-  height: 100vh;
+  height: 64vh;
 }
 
 header h1 {
   color: #f8b2cd;
   font-family: "SantEliaBold";
-  font-size: 32px;
+  font-size: 2.5rem;
 }
 
 header p {
@@ -40,11 +44,16 @@ header p {
   font-size: 1.2rem;
 }
 
+.title {
+  height: 140px;
+}
+
 .article {
   display: flex;
   align-items: baseline;
   align-items: center;
   justify-content: center;
+  width: 100vw;
 }
 
 .article__texto {
@@ -59,14 +68,19 @@ h3 {
 }
 
 .article__img {
-  max-width: 100%;
   height: auto;
 }
 
+.img-article {
+  object-fit: cover;
+  object-position: 0 50%;
+  height: 35vh;
+}
+
 .main__img {
-  height: 400px;
-  width: 850px;
-  align-items: center;
+  object-fit: cover;
+  object-position: 0 50%;
+  height: 40vh;
 }
 
 main {
@@ -88,6 +102,17 @@ main h3 {
   margin: 10px;
 }
 
+@media (max-width: 768px) {
+  .main__img {
+    width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  .main__img {
+    width: auto;
+    height: auto;
+  }
+}
 nav {
   height: 15vh;
   width: 100%;
@@ -137,7 +162,7 @@ nav a:hover {
   width: 40%;
 }
 
-.ajuda__texto h3 {
+.ajuda__texto h4 {
   color: white;
   text-transform: uppercase;
   font-size: 12pt;
@@ -165,6 +190,130 @@ nav a:hover {
   color: #f8b2cd;
 }
 
+@media (min-width: 320px) {
+  .ajuda {
+    height: 49vh;
+  }
+
+  .ajuda__contato p {
+    font-size: 10pt;
+  }
+
+  .ajuda__contato {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .linha {
+    display: none;
+  }
+
+  .ajuda__p {
+    font-size: 10pt;
+  }
+
+  .ajuda__texto {
+    width: 90%;
+  }
+
+  .ajuda__texto h4 {
+    font-size: 10pt;
+  }
+
+  .ajuda__texto h2 {
+    font-size: 12pt;
+  }
+}
+@media (min-width: 768px) {
+  .ajuda {
+    height: 49vh;
+  }
+
+  .ajuda__contato p {
+    font-size: 12pt;
+  }
+
+  .ajuda__contato {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ajuda__p {
+    font-size: 12pt;
+  }
+
+  .ajuda__texto {
+    width: 90%;
+  }
+
+  .ajuda__texto h4 {
+    font-size: 12pt;
+  }
+
+  .ajuda__texto h2 {
+    font-size: 15pt;
+  }
+}
+@media (min-width: 1024px) {
+  .ajuda {
+    height: 35vh;
+  }
+
+  .ajuda__contato p {
+    font-size: 15pt;
+  }
+
+  .ajuda__contato {
+    width: 70%;
+  }
+
+  .ajuda__p {
+    font-size: 15pt;
+  }
+
+  .ajuda__texto {
+    width: 90%;
+  }
+
+  .ajuda__texto h4 {
+    font-size: 15pt;
+  }
+
+  .ajuda__texto h2 {
+    font-size: 17pt;
+  }
+}
+@media (min-width: 1300px) {
+  .ajuda {
+    height: 40vh;
+  }
+
+  .ajuda__contato p {
+    font-size: 12pt;
+  }
+
+  .ajuda__contato {
+    width: 70%;
+  }
+
+  .ajuda__p {
+    font-size: 12pt;
+  }
+
+  .ajuda__texto {
+    width: 50%;
+  }
+
+  .ajuda__texto h4 {
+    font-size: 12pt;
+  }
+
+  .ajuda__texto h2 {
+    font-size: 20pt;
+  }
+}
 .carrossel {
   align-items: center;
   padding: 2%;
@@ -211,6 +360,50 @@ nav a:hover {
   padding: 2%;
 }
 
+@media (max-width: 768px) {
+  .parceiros_logos {
+    width: 100px;
+    margin: 8px;
+  }
+
+  .parceiros h3 {
+    font-size: 30px;
+  }
+
+  .parceiros__conteudo {
+    font-size: 20px;
+    font-style: oblique;
+  }
+}
+@media (max-width: 320px) {
+  .parceiros_logos {
+    width: 60px;
+    margin: 10px;
+    align-content: space-between;
+  }
+
+  .parceiros h3 {
+    font-size: 20px;
+  }
+
+  .parceiros__conteudo {
+    font-size: 15px;
+  }
+}
+@font-face {
+  font-family: "SantElia";
+  src: url("...assets/SantEliaRoughLine.otf");
+}
+.redes-sociais {
+  text-align-last: center;
+}
+
+.imagem-eventos {
+  object-fit: cover;
+  object-position: 0 50%;
+  height: 35vh;
+}
+
 .footer1 {
   background-color: #ffefef;
   align-items: center;
@@ -224,6 +417,15 @@ nav a:hover {
 .contato p {
   margin: auto;
   font-family: "Roboto";
+}
+
+@font-face {
+  font-family: "SantElia";
+  src: url("...assets/SantEliaRoughLine.otf");
+}
+.footer2 {
+  background-color: #ffc0cb;
+  height: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
