@@ -1,0 +1,21 @@
+.carrossel {
+    align-items: center;
+    padding: 2%;
+}
+
+.carrossel h3 {
+    color: #68afe3;
+    font-family: "santeliabold";
+    padding: 0;
+}
+
+@media (min-width: 320) {
+    .carrossel-item {
+        width: 100px;
+    }
+}
+
+.jennifer {
+    width: 700px;
+    height: 50vh;
+}

@@ -1,0 +1,142 @@
+.ajuda{
+    background-color: #68afe3;
+    width: 100%;
+    height: 35vh;
+    color: #000000;
+}
+
+.ajuda__texto{
+    width: 40%;
+}
+.ajuda__texto h4{
+    color: white;
+    text-transform: uppercase;
+    font-size: 12pt;
+}
+
+.ajuda__texto h2{
+    color: #f8b2cd;
+    font-family: "SantEliaBold";
+}
+
+.ajuda__contato{
+    width: 80%;
+}
+
+.ajuda__contato p{
+    margin: 10px;
+}
+
+.ajuda__contato a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.ajuda__contato a:hover{
+    color: #f8b2cd;
+}
+
+@media(min-width: 320px){
+    .ajuda{
+        height: 49vh;
+    }
+    .ajuda__contato p{
+        font-size: 10pt;
+    }
+    .ajuda__contato{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+    .linha{
+        display: none;
+    }
+    .ajuda__p{
+        font-size: 10pt;
+    }
+    .ajuda__texto{
+        width: 90%;
+    }
+    .ajuda__texto h4{
+        font-size: 10pt;
+    }
+    .ajuda__texto h2{
+        font-size: 12pt;
+    }
+}
+
+@media(min-width: 768px){
+    .ajuda{
+        height: 49vh;
+    }
+    .ajuda__contato p{
+        font-size: 12pt;
+    }
+    .ajuda__contato{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+    }
+    .ajuda__p{
+        font-size: 12pt;
+    }
+    .ajuda__texto{
+        width: 90%;
+    }
+    .ajuda__texto h4{
+        font-size: 12pt;
+    }
+    .ajuda__texto h2{
+        font-size: 15pt;
+    }
+}
+
+@media(min-width: 1024px){
+    .ajuda{
+        height: 35vh;
+    }
+    .ajuda__contato p{
+        font-size: 15pt;
+    }
+    .ajuda__contato{
+        width: 70%;
+    
+    }
+    .ajuda__p{
+        font-size: 15pt;
+    }
+    .ajuda__texto{
+        width: 90%;
+    }
+    .ajuda__texto h4{
+        font-size: 15pt;
+    }
+    .ajuda__texto h2{
+        font-size: 17pt;
+    }
+}
+
+@media(min-width: 1300px){
+    .ajuda{
+        height: 40vh;
+    }
+    .ajuda__contato p{
+        font-size: 12pt;
+    }
+    .ajuda__contato{
+        width: 70%;
+    
+    }
+    .ajuda__p{
+        font-size: 12pt;
+    }
+    .ajuda__texto{
+        width: 50%;
+    }
+    .ajuda__texto h4{
+        font-size: 12pt;
+    }
+    .ajuda__texto h2{
+        font-size: 20pt;
+    }
+}
