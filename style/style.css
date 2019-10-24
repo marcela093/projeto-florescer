@@ -173,7 +173,17 @@ nav a:hover {
 .carrossel h3 {
   color: #68afe3;
   font-family: "santeliabold";
-  padding: 7px;
+  padding: 0;
+}
+
+@media (min-width: 320) {
+  .carrossel-item {
+    width: 100px;
+  }
+}
+.jennifer {
+  width: 700px;
+  height: 50vh;
 }
 
 .parceiros {
@@ -199,6 +209,21 @@ nav a:hover {
   color: #68afe3;
   font-family: "santeliabold";
   padding: 2%;
+}
+
+.footer1 {
+  background-color: #ffefef;
+  align-items: center;
+  padding: 10px;
+}
+
+.contato a {
+  padding: 10px;
+}
+
+.contato p {
+  margin: auto;
+  font-family: "Roboto";
 }
 
 /*# sourceMappingURL=style.css.map */
