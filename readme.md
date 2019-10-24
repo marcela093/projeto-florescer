@@ -1,9 +1,11 @@
 NOSSAS REDES PARA CONTATO
 
-                            REPROGRAMA 
-                        https://reprograma.com.br/
+REPROGRAMA 
+https://reprograma.com.br/
 
-                            ALUNAS
+
+ALUNAS
+
 Adrielly Gomes - https://www.linkedin.com/in/adrielly-gomes-859276191/ 
 Daiana Lugo- https://www.linkedin.com/in/daiana-lugo-75159133/ 
 Jennifer Carvalho - https://www.linkedin.com/in/jennifercarvalhos/ 
