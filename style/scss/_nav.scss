@@ -6,6 +6,11 @@ nav{
 
 nav a{
     color: #000000;
+   
+}
+
+a.nav-link{
+    background-color: white;
 }
 
 nav a:hover{
@@ -33,4 +38,11 @@ nav a:hover{
 
 .foto-rosa{
     height: 9vh;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f8b2cd;
+    background-color: white;
+    text-align: center;
+    width: 207px;
 }
