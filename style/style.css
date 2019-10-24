@@ -252,5 +252,18 @@ header p {
     font-size: 15px;
   }
 }
+@font-face {
+  font-family: "SantElia";
+  src: url("...assets/SantEliaRoughLine.otf");
+}
+.redes-sociais {
+  text-align-last: center;
+}
+
+.imagem-eventos {
+  object-fit: cover;
+  object-position: 0 50%;
+  height: 35vh;
+}
 
 /*# sourceMappingURL=style.css.map */
