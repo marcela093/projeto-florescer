@@ -23,8 +23,18 @@ main h3 {
     margin: 10px;
 }
 
-@media (max-width: 320px) { 
+@media (max-width: 768px) { 
 
-
-
+    .main__img {
+        width: 100%;
+    }
+    
+    
+   
+    
  }
+
+// @media (max-width: 320px) { 
+
+
+//  }
