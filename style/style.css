@@ -18,10 +18,14 @@
   font-family: "SantEliaTwo";
   src: url("../assets/fonts/SantEliaRoughLineTwo.otf");
 }
+.container__principal {
+  width: 60%;
+}
+
 .main__img {
   object-fit: cover;
   object-position: 0 50%;
-  height: 27vh;
+  height: 40vh;
 }
 
 main {
@@ -48,6 +52,7 @@ main h3 {
   align-items: baseline;
   align-items: center;
   justify-content: center;
+  width: 100vw;
 }
 
 .article__texto {
