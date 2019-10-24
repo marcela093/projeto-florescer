@@ -1,7 +1,7 @@
-.main__img {
-    height: 400px;
-    width: 850px; 
-    align-items: center;
+.main__img {    
+    object-fit: cover;
+    object-position: 0 50%;
+    height: 40vh;
 }
 
 main {
