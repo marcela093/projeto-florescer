@@ -6,7 +6,7 @@ header{
 .img-carousel{
     object-fit: cover;
     object-position: 0 50%;
-    height: 64vh;
+    height: 84vh;
 
 }
 
@@ -23,5 +23,12 @@ header p{
 
 .title{
     height: 204px;
+}
+
+@media(min-width: 768px){
+    .img-carousel{
+        height: 84vh;
+    }
+
 }
 
