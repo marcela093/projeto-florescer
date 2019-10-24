@@ -19,9 +19,9 @@
   src: url("../assets/fonts/SantEliaRoughLineTwo.otf");
 }
 .main__img {
-  height: 400px;
-  width: 850px;
-  align-items: center;
+  object-fit: cover;
+  object-position: 0 50%;
+  height: 27vh;
 }
 
 main {
@@ -62,8 +62,13 @@ h3 {
 }
 
 .article__img {
-  max-width: 100%;
   height: auto;
+}
+
+.img-article {
+  object-fit: cover;
+  object-position: 0 50%;
+  height: 35vh;
 }
 
 nav {
@@ -151,13 +156,13 @@ header {
 .img-carousel {
   object-fit: cover;
   object-position: 0 50%;
-  height: 100vh;
+  height: 64vh;
 }
 
 header h1 {
   color: #f8b2cd;
   font-family: "SantEliaBold";
-  font-size: 32px;
+  font-size: 2.5rem;
 }
 
 header p {
@@ -199,6 +204,20 @@ header p {
   color: #68afe3;
   font-family: "santeliabold";
   padding: 2%;
+}
+
+@font-face {
+  font-family: "SantElia";
+  src: url("...assets/SantEliaRoughLine.otf");
+}
+.redes-sociais {
+  text-align-last: center;
+}
+
+.imagem-eventos {
+  object-fit: cover;
+  object-position: 0 50%;
+  height: 35vh;
 }
 
 /*# sourceMappingURL=style.css.map */
