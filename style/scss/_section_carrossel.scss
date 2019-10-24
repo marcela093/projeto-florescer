@@ -9,13 +9,21 @@
     padding: 0;
 }
 
-@media (min-width: 320) {
-    .carrossel-item {
-        width: 100px;
-    }
+.jennifer {
+    width: 100vh;
+    height: 300px;
 }
 
-.jennifer {
-    width: 700px;
-    height: 50vh;
+.carousel-inner {
+   width: auto;
+   
 }
+
+@media (max-width: 320px) {
+    .jennifer {
+        width: auto;
+        height: auto;
+    }
+    
+}
+
