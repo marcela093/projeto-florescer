@@ -22,6 +22,61 @@
   width: 60%;
 }
 
+header {
+  height: 100%;
+  width: 100%;
+}
+
+.img-carousel {
+  object-fit: cover;
+  object-position: 0 50%;
+  height: 64vh;
+}
+
+header h1 {
+  color: #f8b2cd;
+  font-family: "SantEliaBold";
+  font-size: 2.5rem;
+}
+
+header p {
+  color: #68afe3;
+  font-size: 1.2rem;
+}
+
+.title {
+  height: 140px;
+}
+
+.article {
+  display: flex;
+  align-items: baseline;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.article__texto {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+h3 {
+  color: #68b0e3;
+  font-family: "SantEliaBold";
+  font-size: 30px;
+}
+
+.article__img {
+  height: auto;
+}
+
+.img-article {
+  object-fit: cover;
+  object-position: 0 50%;
+  height: 35vh;
+}
+
 .main__img {
   object-fit: cover;
   object-position: 0 50%;
@@ -58,35 +113,6 @@ main h3 {
     height: auto;
   }
 }
-.article {
-  display: flex;
-  align-items: baseline;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-}
-
-.article__texto {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-}
-
-h3 {
-  color: #68b0e3;
-  font-family: "SantEliaBold";
-  font-size: 30px;
-}
-
-.article__img {
-  height: auto;
-}
-
-.img-article {
-  object-fit: cover;
-  object-position: 0 50%;
-  height: 35vh;
-}
-
 nav {
   height: 15vh;
   width: 100%;
@@ -288,32 +314,6 @@ nav a:hover {
     font-size: 20pt;
   }
 }
-header {
-  height: 100%;
-  width: 100%;
-}
-
-.img-carousel {
-  object-fit: cover;
-  object-position: 0 50%;
-  height: 64vh;
-}
-
-header h1 {
-  color: #f8b2cd;
-  font-family: "SantEliaBold";
-  font-size: 2.5rem;
-}
-
-header p {
-  color: #68afe3;
-  font-size: 1.2rem;
-}
-
-.title {
-  height: 140px;
-}
-
 .carrossel {
   align-items: center;
   padding: 2%;
@@ -322,7 +322,17 @@ header p {
 .carrossel h3 {
   color: #68afe3;
   font-family: "santeliabold";
-  padding: 7px;
+  padding: 0;
+}
+
+@media (min-width: 320) {
+  .carrossel-item {
+    width: 100px;
+  }
+}
+.jennifer {
+  width: 700px;
+  height: 50vh;
 }
 
 .parceiros {
@@ -392,6 +402,21 @@ header p {
   object-fit: cover;
   object-position: 0 50%;
   height: 35vh;
+}
+
+.footer1 {
+  background-color: #ffefef;
+  align-items: center;
+  padding: 10px;
+}
+
+.contato a {
+  padding: 10px;
+}
+
+.contato p {
+  margin: auto;
+  font-family: "Roboto";
 }
 
 @font-face {
