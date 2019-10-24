@@ -29,12 +29,12 @@ main h3 {
         width: 100%;
     }
     
-    
-   
+ }
+ @media (max-width: 320px) { 
+
+    .main__img {
+        width: auto;
+        height: auto;
+    }
     
  }
-
-// @media (max-width: 320px) { 
-
-
-//  }
