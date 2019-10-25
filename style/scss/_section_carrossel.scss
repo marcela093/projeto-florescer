@@ -1,6 +1,5 @@
 .carrossel {
     align-items: center;
-    padding: 2%;
 }
 
 .carrossel h3 {
@@ -15,8 +14,7 @@
 }
 
 .carousel-inner {
-   width: auto;
-   
+    width: auto;
 }
 
 @media (max-width: 320px) {
@@ -24,6 +22,4 @@
         width: auto;
         height: auto;
     }
-    
 }
-
