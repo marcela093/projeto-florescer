@@ -24,9 +24,38 @@
     padding: 2%;
 }
 
-@media (max-width: 320px) { 
-   
+@media (max-width: 768px) { 
     
+    .parceiros_logos {
+        width: 100px;
+        margin: 8px;
+    }
 
+    .parceiros h3 {
+        font-size: 30px;
+    }
+    
+    .parceiros__conteudo {
+        font-size: 20px;
+        font-style: oblique;
+    }
+
+}
+
+@media (max-width: 320px) { 
+    
+    .parceiros_logos {
+        width: 60px; 
+       margin: 10px;
+       align-content: space-between;
+    }
+
+    .parceiros h3 {
+        font-size: 20px;
+    }
+    
+    .parceiros__conteudo {
+        font-size: 15px;
+    }
 
 }

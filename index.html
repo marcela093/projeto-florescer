@@ -5,30 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/style.css">
     <title>Casa Florescer</title>
 </head>
 
 <body>
-    <nav class="d-flex justify-content-lg-around align-items-lg-center">
-        <div class="nav__imgs">
-            <img  class="foto-rosa" src="./assets/imgs marcela/rosa.png" alt="desenho de uma rosa cor de rosa">
-            <img src="./assets/imgs marcela/Layer 2.png" alt="logo casa florescer">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        
+        <div class="container">
+            <div class="nav__imgs">
+                <img  class="foto-rosa" src="./assets/imgs marcela/rosa.png" alt="desenho de uma rosa cor de rosa">
+                <img src="./assets/imgs marcela/Layer 2.png" alt="logo casa florescer">
+            </div>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobreSection">Sobre</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#porqueSection">Porque fazemos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#historiasSection">Histórias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parceirosSection">Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#eventosSection">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ajudaSection">Como ajudar</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="nav__menus d-flex justify-content-lg-start">
-            <a href="">Sobre</a>
-            <a href="">Porque fazemos</a>
-            <a href="">Histórias</a>
-            <a href="">Parceiros</a>
-            <a href="">Eventos</a>
-        </div>
-        <div class="nav__redes-sociais d-flex justify-content-lg-end">
-            <a href="">Como ajudar</a>
-            <a href="https://pt-br.facebook.com/florecerCA/" target="blank"><img src="./assets/imgs marcela/facebook-circular-logo.png" alt="logo facebook"></a>
-            <a href="https://www.instagram.com/caeflorescer/" target="blank"><img src="./assets/imgs marcela/instagram.png" alt="logo instagram"></a>
-        </div>
+
+
     </nav>
+
     <header class="">
         <!-- Carousel  -->
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="9000">
@@ -71,72 +92,83 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+
         <!-- Titulo da Página -->
         <div class=" m-3 mb-3 title"> 
             <h1 class=" text-center ">Casa Florescer</h1>
             <p class="text-center  font-italic">CENTRO DE ACOLHIDA ESPECIAL PARA MULHERES TRANS E TRAVESTIS</p>
 
         </div>
-        
+
     </header>
 
+    
     <article class="container row article">
-        <div class=" article__img  img-fluid">
-            <img class="img-article" src="./assets/day/casaflorescer_entrada.png" alt="">
+        <div class=" article__img ">
+            <img src="./assets/day/casaflorescer_entrada.png" alt="">
         </div>
 
-        <div class=" col-sm text-center article__conteudo">
+        <div id= "sobreSection" class=" col-sm text-center article__conteudo" >
             <h3>Sobre</h3>
             <p class="rounded float-left  article__texto">
-                A Casa Florescer é um centro de acolhida pioneira no Brasil que acolhe e atende 30 mulhereres transexuais e travestis. É administrada pela instituição Coordenação Regional das obras de Promoção Humana - CROPH em parceria com a Secretaria Municipal de
+                A Casa Florescer é um centro de acolhida pioneira no Brasil que acolhe e atende 30 mulhereres
+                transexuais e travestis. É administrada pela instituição Coordenação Regional das obras de Promoção
+                Humana - CROPH em parceria com a Secretaria Municipal de
                 Assistencia e Desenvolvimento Social e Secretaria Municipal de Direitos Humanos
             </p>
-
         </div>
 
 
-    </article> -->
-
-    <main>
-        <!-- Adrielly --->
+    </article>
+    <div>
+  
+    <main>        
         <div class="main__imagem">
-            <img class="main__img img-responsive" src="./assets/Adrielly/imagens/porquefazemosimg.jpg" alt="mulheres trans integrantes do projeto florescer em evento na casa">
+            <img class="main__img img-responsive" src="./assets/Adrielly/imagens/porquefazemosimg.jpg"
+                alt="mulheres trans integrantes do projeto florescer em evento na casa">
         </div>
-        <div class="main__texto">
+
+        <div id="porqueSection" class="main__texto">
             <h3> Porque fazemos </h3>
             <p>
-                Estima-se que 10% da população brasileira seja LGBT+. Uma parte significativa dessa população é transexual ou travesti. Com expectativa de vida de 35 anos, este é também o grupo mais afetado pela violência relacionada a idendidade de gênero e orientação
+                Estima-se que 10% da população brasileira seja LGBT+. Uma parte significativa dessa população é
+                transexual ou travesti. Com expectativa de vida de 35 anos, este é também o grupo mais afetado pela
+                violência relacionada a idendidade de gênero e orientação
                 sexual, fazendo com que o país lidere há anos o ranking dos países que mais matam transexuais.
-
             </p>
             <p>
-                A dificuldade de acesso à educação, preconceito da sociedade, exclusão familiar e falta de vagas no mercado de trabalho são as barreiras cotidianas enfrentadas por essa parte da população.
+                A dificuldade de acesso à educação, preconceito da sociedade, exclusão familiar e falta de vagas no
+                mercado de trabalho são as barreiras cotidianas enfrentadas por essa parte da população.
             </p>
             <p>
-                Poucas empresas têm politicas de inclusão mais amplas, por isso os acessos aos empregos formais são sempre dificultados. Por conta disso, mais de 90% das mulheres transexuais e travestis encontram na prostituição um modo de sobrevivência. O papel da casa
-                <strong> Florescer </strong> é minimizar essas mazelas e proporcionar um ambiente salutar e acolhedor que ajude a desenvolver e o potencializar cada individuo.
+                Poucas empresas têm politicas de inclusão mais amplas, por isso os acessos aos empregos formais são
+                sempre dificultados. Por conta disso, mais de 90% das mulheres transexuais e travestis encontram na
+                prostituição um modo de sobrevivência. O papel da casa
+                <strong> Florescer </strong> é minimizar essas mazelas e proporcionar um ambiente salutar e acolhedor
+                que ajude a desenvolver e o potencializar cada individuo.
             </p>
 
         </div>
     </main>
-    <section class="carrossel d-flex flex-column align-items-center">
+
+    <section id= "historiasSection" class="carrossel d-flex flex-column align-items-center">
         <h3>Historias </h3>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-enterval="3000">
+        <div id="carouselExampleIndicators" class="carousel slide jennifer" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <iframe class="d-flex" width="700" height="315" src="https://www.youtube.com/embed/UbKwMAcrLWI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="carousel-item active ">
+                    <iframe class="d-flex jennifer"  src="https://www.youtube.com/embed/UbKwMAcrLWI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class="carousel-item">
-                    <iframe class="d-flex" width="700" height="315" src="https://www.youtube.com/embed/Wn81G7QDg7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="carousel-item ">
+                    <iframe class="d-flex jennifer"  src="https://www.youtube.com/embed/Wn81G7QDg7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                 </div>
-                <div class="carousel-item">
-                    <iframe class="d-flex" width="700" height="315" src="https://www.youtube.com/embed/VREo95kegew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="carousel-item  ">
+                    <iframe class="d-flex jennifer" src="https://www.youtube.com/embed/VREo95kegew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -149,14 +181,14 @@
             </a>
         </div>
     </section>
-    <section class="parceiros">
+
+    <section id="parceirosSection" class="parceiros">
         <div class="parceiros__conteudo">
-
-            NOSSOS PARCEIROS
-
-            
+            NOSSOS PARCEIROS            
         </div>
+
         <h3> Tudo acontece através de parcerias</h3>
+
         <div class="parceiros__container">
             <img class="parceiros_logos" src="./assets/Adrielly/logos/accor.png" alt="accor">
             <img class="parceiros_logos" src="./assets/Adrielly/logos/AI.png" alt="american airlines">
@@ -164,87 +196,97 @@
             <img class="parceiros_logos" src="./assets/Adrielly/logos/bayer.png" alt="bayer">
             <img class="parceiros_logos" src="./assets/Adrielly/logos/castroburguer.png" alt="castro burguer">
         </div>
+
         <div class="parceiros__container2">
-            <img class="parceiros_logos" src="./assets/Adrielly/logos/centroculturalsp.png" alt=" centro cultural de São Paulo">
+            <img class="parceiros_logos" src="./assets/Adrielly/logos/centroculturalsp.png"
+                alt=" centro cultural de São Paulo">
             <img class="parceiros_logos" src="./assets/Adrielly/logos/expedia.png" alt="expedia">
-            <img class="parceiros_logos" src="./assets/Adrielly/logos/hopi-hari-logo-png-transparent.png" alt="hopi hari">
+            <img class="parceiros_logos" src="./assets/Adrielly/logos/hopi-hari-logo-png-transparent.png"
+                alt="hopi hari">
             <img class="parceiros_logos" src="./assets/Adrielly/logos/inoar.jpg" alt="Inoar">
             <img class="parceiros_logos" src="./assets/Adrielly/logos/kpmg.png" alt="KPMG">
         </div>
+
         <div class="parceiros__container3">
             <img class="parceiros_logos" src="./assets/Adrielly/logos/mesabrasil.png" alt="Mesa Brasil">
             <img class="parceiros_logos" src="./assets/Adrielly/logos/sesc.png" alt="Sesc">
             <img class="parceiros_logos" src="./assets/Adrielly/logos/sodexo.png" alt="sodexo">
             <img class="parceiros_logos" src="./assets/Adrielly/logos/unifesp.png" alt="Unifesp">
             <img class="parceiros_logos" src="./assets/Adrielly/logos/usp.png" alt="USP">
-        </div>
-
-
-        </div>
-
+        </div>  
 
     </section>
-    <section class="container row eventos d-flex">
+
+
+    <section id="eventosSection" class="container row eventos d-flex">
         <div class="d-flex flex-column justify-content-center">
             <h3 class="text-center">Eventos</h3>
             <p>Acompanhe a agenda da Casa Florescer nas redes sociais</p>
+        </div>   
 
-            <div class="redes-sociais col-sm align-self-center mb-3">
-                <a href="https://www.facebook.com/florecerCA/" target="_blank">
-                    <img src="./assets/Eventos/facebook-azul.png" alt="Link Facebook"></a>
-                <a href="https://www.instagram.com/caeflorescer/" target="_blank">
-                    <img src="./assets/Eventos/instagram-azul.png" alt="Link Instagram"></a>
-            </div>
-
-        </div>
-
-        <div class="imagem-eventos">
-            <img class="imagem-eventos col-sm" src="./assets/Eventos/Imagem-eventos.png" alt="Foto do mural grafitado com mulheres sobre o gramado">
+        <div class="redes-sociais col-sm align-self-center mb-3">
+            <a href="https://www.facebook.com/florecerCA/" target="_blank">
+                <img src="./assets/Eventos/facebook-azul.png" alt="Link Facebook"></a>
+            <a href="https://www.instagram.com/caeflorescer/" target="_blank">
+                <img src="./assets/Eventos/instagram-azul.png" alt="Link Instagram"></a>
         </div>        
+
+        <div class="imagem-eventos mb-3">
+            <img class="imagem-eventos" src="./assets/Eventos/Imagem-eventos.png" alt="Foto do mural grafitado com mulheres sobre o gramado">
+        </div>                
     </section>
+
 <!-- Romenia -->
 
 
-    <section class="ajuda d-flex align-items-lg-center flex-lg-column justify-content-lg-center">
-        <div class="ajuda__texto d-flex flex-lg-column justify-content-lg-center align-items-lg-center">
-            <h3>Como ajudar</h3>
-            <h2>Precisamos de sua ajuda</h2>
-            <p class="text-center">Ajude-nos a criar um mundo mais inclusivo. Todo o dinheiro é destinado para as residentes e infraestrutura da casa.</p>
+    <section id="ajudaSection" class="ajuda d-flex text-center  align-items-center flex-column justify-content-center">
+        <div class="ajuda__texto d-flex justify-content-center flex-column justify-content-center align-items-center">
+            <h4>Como ajudar</h4>
+            <h2>Precisamos da sua ajuda</h2>
+            <p class="ajuda__p text-center">Ajude-nos a criar um mundo mais inclusivo. Todo o dinheiro é destinado para as residentes e infraestrutura da casa.</p>
         </div>
-        <div class="ajuda__contato d-flex justify-content-lg-center">
+        <div class="ajuda__contato d-flex justify-content-center">
             <p>E-mail: <a href="mailto: cadiversidade@gmail.com">cadiversidade@gmail.com</a> </p>
-            <p>|</p>
+            <p class="linha">|</p>
             <p> Tel: (11) 3456-7890</p>
         </div>
+        
     </section>
-
-
-    <footer class="footer1">
+    <!-- <footer class="footer1 d-flex row justify-content-around align-items-lg-center justify-content-between"> -->
+            <footer class="footer1">
         <div>
-
+            <img class="foto-rosa" src="./assets/imgs marcela/rosa.png" alt="desenho de uma rosa cor de rosa">
+            <img src="./assets/imgs marcela/Layer 2.png" alt="logo casa florescer">
+        </div>
+        <div class="contato row">
+            <p>Contatos</p>
+            <a href="https://pt-br.facebook.com/florecerCA/" target="blank"><img src="./assets/imgs marcela/facebook-circular-logo.png" alt="logo facebook"></a>
+            
+            <a href="https://www.instagram.com/caeflorescer/" target="blank"><img src="./assets/imgs marcela/instagram.png" alt="logo instagram"></a>
         </div>
     </footer>
     <footer class="footer2">
-        <div class="links text-center">
+        <p class="text-center blue">Feito com amor por alunas da <a class="blue" href="https://github.com/marcela093/projeto-florescer/blob/marcela093/readme.md">{<strong>re</strong>programa}</a></p>
+        <!-- <div class="links text-center">
             <a href="https://www.linkedin.com/in/adrielly-gomes-859276191/" target=_blank class="text-white">Adrielly
-                Gomes|</a>
-            <a href="https://www.linkedin.com/in/daiana-lugo-75159133/" target=_blank class="text-white">Daiana Lugo|</a>
+                Gomes |</a>
+            <a href="https://www.linkedin.com/in/daiana-lugo-75159133/" target=_blank class="text-white">Daiana Lugo |</a>
             <a href="https://www.linkedin.com/in/jennifercarvalhos/" target=_blank class="text-white">Jeniffer
-                Carvalho|</a>
+                Carvalho |</a>
             <a href="https://www.linkedin.com/in/marcela-souza-542541114/" target=_blank class="text-white">Marcela
-                Souza|</a>
-            <a href="https://www.linkedin.com/in/romeniaishiyama/" target=_blank class="text-white">Romênia Ishiyama|</a>
+                Souza |</a>
+            <a href="https://www.linkedin.com/in/romeniaishiyama/" target=_blank class="text-white">Romênia Ishiyama |</a>
             <a href="https://www.linkedin.com/in/rosana-em%C3%ADdio-184245b0/" target=_blank class="text-white">Rosana
-                Emídio</a>
-        </div>
+                Emídio </a>
+        </div> -->
 
         <!-- Romenia -->
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
     <script src="./Js/jquery.js"></script>
 </body>
 

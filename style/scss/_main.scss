@@ -1,7 +1,9 @@
 .main__img {    
     object-fit: cover;
-    object-position: 0 50%;
-    height: 27vh;
+    // object-position: 0 50%;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
 }
 
 main {
@@ -20,11 +22,22 @@ main h3 {
 
 .main__texto {
     text-align: center;
-    margin: 10px;
+    margin: 10px; 
 }
 
-@media (max-width: 320px) { 
+@media (max-width: 768px) { 
 
+    .main__img {
+        width: 100%;
+    }
+    
+ }
+ @media (max-width: 320px) { 
 
-
+    .main__img {
+        width: 100%;
+        height: auto;
+        
+    }
+    
  }
