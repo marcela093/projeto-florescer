@@ -580,4 +580,10 @@ nav a:hover {
   height: 25px;
 }
 
+@media (max-width: 320px) {
+  .footer2 {
+    font-size: 14px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
