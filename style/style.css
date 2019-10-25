@@ -30,7 +30,7 @@ header {
 .img-carousel {
   object-fit: cover;
   object-position: 0 50%;
-  height: 64vh;
+  height: 80vh;
 }
 
 header h1 {
@@ -48,6 +48,18 @@ header p {
   height: 140px;
 }
 
+@media (min-width: 426px) and (max-width: 768px) {
+  .img-carousel {
+    object-position: 42% 31%;
+    height: 65vh;
+  }
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .img-carousel {
+    object-position: 42% 31%;
+    height: 42vh;
+  }
+}
 .article {
   display: flex;
   align-items: baseline;

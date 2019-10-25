@@ -25,17 +25,15 @@ header p{
     height: 140px;
 }
 
-@media (max-width: 768px){
-    img-carousel {
-        object-fit: cover;
+@media (min-width:426px) and (max-width: 768px){
+    .img-carousel {
         object-position: 42% 31%;
         height: 65vh;
     }
 }
 
-@media (max-width: 320px){
+@media (min-width: 320px) and (max-width: 425px) {
     .img-carousel {
-        object-fit: cover;
         object-position: 42% 31%;
         height: 42vh;
     }
