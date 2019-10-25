@@ -561,6 +561,9 @@ nav a:hover {
   background-color: #ffc0cb;
   height: 25px;
 }
+.footer2 p {
+  margin: 0;
+}
 
 @media (max-width: 320px) {
   .footer2 {
