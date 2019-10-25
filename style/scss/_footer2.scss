@@ -6,6 +6,9 @@
 .footer2 {
     background-color: #ffc0cb;
     height: 25px;
+    p {
+        margin: 0;
+    }
 }
 
 @media (max-width: 320px) { 
@@ -14,9 +17,6 @@
         font-size: 14px;
     }
 
-    p {
-        margin: 0;
-    }
 }
   
 
