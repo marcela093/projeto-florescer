@@ -30,7 +30,7 @@ header {
 .img-carousel {
   object-fit: cover;
   object-position: 0 50%;
-  height: 64vh;
+  height: 84vh;
 }
 
 header h1 {
@@ -45,15 +45,19 @@ header p {
 }
 
 .title {
-  height: 140px;
+  height: 204px;
 }
 
+@media (min-width: 768px) {
+  .img-carousel {
+    height: 84vh;
+  }
+}
 .article {
   display: flex;
-  align-items: baseline;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
 }
 
 .article__texto {
@@ -69,18 +73,97 @@ h3 {
 
 .article__img {
   height: auto;
+  width: 48%;
 }
 
 .img-article {
   object-fit: cover;
   object-position: 0 50%;
-  height: 35vh;
+  height: 36vh;
+  border-radius: 10px;
+  margin-left: 70px;
 }
 
+.article__conteudo {
+  width: 30%;
+}
+
+@media (min-width: 320px) {
+  .article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .img-article {
+    object-fit: cover;
+    object-position: 0 50%;
+    height: 30vh;
+    border-radius: 10px;
+    margin-left: 45px;
+  }
+
+  .article__img {
+    width: 100%;
+  }
+
+  .article__conteudo {
+    width: 90%;
+  }
+}
+@media (min-width: 768px) {
+  .article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .article__img {
+    width: 50%;
+  }
+
+  .img-article {
+    object-fit: cover;
+    object-position: 0 50%;
+    height: 47vh;
+    border-radius: 10px;
+    margin-left: 0px;
+  }
+
+  .article__conteudo {
+    width: 53%;
+  }
+}
+@media (min-width: 1024px) {
+  .article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .article__conteudo {
+    width: 39%;
+  }
+
+  .img-article {
+    object-fit: cover;
+    object-position: 0 50%;
+    height: 40vh;
+    border-radius: 10px;
+    margin-left: 0px;
+  }
+}
 .main__img {
   object-fit: cover;
-  object-position: 0 50%;
-  height: 40vh;
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
 }
 
 main {
@@ -104,12 +187,21 @@ main h3 {
 
 @media (max-width: 768px) {
   .main__img {
-    width: 100%;
+    width: auto;
+    height: 54vh;
+  }
+
+  .main__texto {
+    width: 80%;
+  }
+
+  main p {
+    font-size: 14pt;
   }
 }
 @media (max-width: 320px) {
   .main__img {
-    width: auto;
+    width: 100%;
     height: auto;
   }
 }
@@ -121,6 +213,10 @@ nav {
 
 nav a {
   color: #000000;
+}
+
+a.nav-link {
+  background-color: white;
 }
 
 nav a:hover {
@@ -151,11 +247,47 @@ nav a:hover {
   height: 9vh;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #f8b2cd;
+  background-color: white;
+  text-align: center;
+  width: 207px;
+}
+
+@media (min-width: 1024px) {
+  .nav__imgs {
+    display: flex;
+    margin-left: -30px;
+  }
+
+  .foto-logo {
+    height: 4vw;
+  }
+
+  .foto-rosa {
+    height: 7vh;
+  }
+
+  #navbarNav {
+    margin: -10px;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #f8b2cd;
+    background-color: white;
+    text-align: center;
+    width: 133px;
+    margin-left: -7px;
+  }
+}
 .ajuda {
   background-color: #68afe3;
   width: 100%;
   height: 35vh;
-  color: #000000;
 }
 
 .ajuda__texto {
@@ -183,7 +315,7 @@ nav a:hover {
 
 .ajuda__contato a {
   text-decoration: none;
-  color: #000000;
+  color: #272525;
 }
 
 .ajuda__contato a:hover {
@@ -325,16 +457,21 @@ nav a:hover {
   padding: 0;
 }
 
-@media (min-width: 320) {
-  .carrossel-item {
-    width: 100px;
-  }
-}
 .jennifer {
-  width: 700px;
-  height: 50vh;
+  width: 100vh;
+  height: 300px;
 }
 
+.carousel-inner {
+  width: auto;
+}
+
+@media (max-width: 320px) {
+  .jennifer {
+    width: auto;
+    height: auto;
+  }
+}
 .parceiros {
   text-align: center;
   padding: 5px;
@@ -394,20 +531,67 @@ nav a:hover {
   font-family: "SantElia";
   src: url("...assets/SantEliaRoughLine.otf");
 }
+.eventos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.eventos__texto {
+  width: 80%;
+}
+
 .redes-sociais {
   text-align-last: center;
+  width: 80%;
 }
 
 .imagem-eventos {
   object-fit: cover;
   object-position: 0 50%;
   height: 35vh;
+  margin-left: 13px;
+  border-radius: 10px;
 }
 
+@media (min-width: 768px) {
+  .eventos__texto {
+    width: 37%;
+    text-align: center;
+  }
+
+  .imagem-eventos {
+    object-fit: cover;
+    object-position: 0 50%;
+    height: 35vh;
+    border-radius: 10px;
+  }
+
+  .eventos {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .redes-sociais {
+    padding: 2px 2px;
+  }
+}
+@media (min-width: 1024px) {
+  .eventos__texto {
+    width: 40%;
+    text-align: center;
+    margin-left: 20px;
+  }
+}
 .footer1 {
   background-color: #ffefef;
+  display: flex;
   align-items: center;
-  padding: 10px;
+  justify-content: space-around;
+  width: 100%;
+  height: 70px;
 }
 
 .contato a {
@@ -419,6 +603,16 @@ nav a:hover {
   font-family: "Roboto";
 }
 
+.blue {
+  color: #68afe3;
+}
+
+@media (max-width: 320px) {
+  .footer1 {
+    height: 140px;
+    flex-direction: column;
+  }
+}
 @font-face {
   font-family: "SantElia";
   src: url("...assets/SantEliaRoughLine.otf");
