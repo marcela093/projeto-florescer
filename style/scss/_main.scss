@@ -28,7 +28,14 @@ main h3 {
 @media (max-width: 768px) { 
 
     .main__img {
-        width: 100%;
+        width: auto;
+        height: 54vh;
+    }
+    .main__texto{
+        width: 80%;
+    }
+    main p{
+        font-size: 14pt;
     }
     
  }

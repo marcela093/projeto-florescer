@@ -187,7 +187,16 @@ main h3 {
 
 @media (max-width: 768px) {
   .main__img {
-    width: 100%;
+    width: auto;
+    height: 54vh;
+  }
+
+  .main__texto {
+    width: 80%;
+  }
+
+  main p {
+    font-size: 14pt;
   }
 }
 @media (max-width: 320px) {
@@ -245,11 +254,40 @@ nav a:hover {
   width: 207px;
 }
 
+@media (min-width: 1024px) {
+  .nav__imgs {
+    display: flex;
+    margin-left: -30px;
+  }
+
+  .foto-logo {
+    height: 4vw;
+  }
+
+  .foto-rosa {
+    height: 7vh;
+  }
+
+  #navbarNav {
+    margin: -10px;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #f8b2cd;
+    background-color: white;
+    text-align: center;
+    width: 133px;
+    margin-left: -7px;
+  }
+}
 .ajuda {
   background-color: #68afe3;
   width: 100%;
   height: 35vh;
-  color: #000000;
 }
 
 .ajuda__texto {
@@ -277,7 +315,7 @@ nav a:hover {
 
 .ajuda__contato a {
   text-decoration: none;
-  color: #000000;
+  color: #272525;
 }
 
 .ajuda__contato a:hover {
