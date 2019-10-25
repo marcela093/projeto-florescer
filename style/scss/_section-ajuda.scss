@@ -28,11 +28,16 @@
 
 .ajuda__contato a{
     text-decoration: none;
-    color: rgb(39, 37, 37);
+    color: white;
+    
 }
 
-.ajuda__contato a:hover{
+
+.ajuda__contato {
+    a:hover{
     color: #f8b2cd;
+
+}
 }
 
 @media(min-width: 320px){

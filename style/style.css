@@ -325,7 +325,7 @@ nav a:hover {
 
 .ajuda__contato a {
   text-decoration: none;
-  color: #272525;
+  color: white;
 }
 
 .ajuda__contato a:hover {
@@ -591,6 +591,10 @@ nav a:hover {
 
 .blue {
   color: #68afe3;
+}
+
+.pink {
+  color: #f8b2cd;
 }
 
 @media (max-width: 320px) {
