@@ -27,7 +27,7 @@ header {
 .img-carousel {
   object-fit: cover;
   object-position: 0 50%;
-  height: 90vh;
+  height: 85vh;
 }
 
 header h1 {
@@ -215,6 +215,7 @@ nav {
   height: 15vh;
   width: 100%;
   background-color: white;
+  font-size: 15px;
 }
 
 nav a {
@@ -602,6 +603,9 @@ nav a:hover {
 .footer2 {
   background-color: #ffc0cb;
   height: 25px;
+}
+.footer2 p {
+  margin: 0;
 }
 
 @media (max-width: 320px) {
