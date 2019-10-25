@@ -26,7 +26,7 @@ header {
 .img-carousel {
   object-fit: cover;
   object-position: 0 50%;
-  height: 84vh;
+  height: 90vh;
 }
 
 header h1 {
@@ -44,9 +44,16 @@ header p {
   height: 204px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
   .img-carousel {
+    object-position: 42% 31%;
     height: 84vh;
+  }
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .img-carousel {
+    object-position: 42% 31%;
+    height: 42vh;
   }
 }
 .article {
