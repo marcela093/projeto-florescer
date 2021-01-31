@@ -1,34 +1,102 @@
-
-.article{    
-    display: flex;    
-    align-items: baseline;
+.article {
+    display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
-    
-   
+    width: 100%;
 }
 
-.article__texto{
+.article__texto {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    text-align: justify;
 }
 
-
-h3{
-    color:  hsl(205, 69%, 65%);
+h3 {
+    color: hsl(205, 69%, 65%);
     font-family: "SantEliaBold";
-    font-size: 30px;    
+    font-size: 30px;
 }
 
-
-.article__img{
+.article__img {
     // max-width: 100%;
-    height: auto;     
+    height: auto;
+    width: 48%;
 }
 
-.img-article{
+.img-article {
     object-fit: cover;
     object-position: 0 50%;
-    height: 35vh;
+    height: 36vh;
+    border-radius: 10px;
+    margin-left: 70px;
+}
+
+.article__conteudo {
+    width: 30%;
+}
+
+@media(min-width: 320px) {
+    .article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .img-article {
+        object-fit: cover;
+        object-position: 0 50%;
+        height: 30vh;
+        border-radius: 10px;
+        margin-left: 45px;
+    }
+    .article__img {
+        width: 100%;
+    }
+    .article__conteudo {
+        width: 90%;
+    }
+}
+
+@media(min-width: 768px) {
+    .article {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .article__img {
+        width: 50%;
+    }
+    .img-article {
+        object-fit: cover;
+        object-position: 0 50%;
+        height: 47vh;
+        border-radius: 10px;
+        margin-left: 0px;
+    }
+    .article__conteudo {
+        width: 53%;
+    }
+}
+
+@media(min-width: 1024px) {
+    .article {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .article__conteudo {
+        width: 39%;
+    }
+    .img-article {
+        object-fit: cover;
+        object-position: 0 50%;
+        height: 40vh;
+        border-radius: 10px;
+        margin-left: 0px;
+    }
 }

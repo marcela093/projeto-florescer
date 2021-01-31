@@ -4,7 +4,6 @@
     font-size: 20px;
     display: flex;
     flex-direction: column;
-    
 }
 
 .parceiros_logos {
@@ -13,7 +12,8 @@
 }
 
 .parceiros__conteudo {
-    color: #f8b2cd; 
+    color: #f8b2cd;
+    padding: 10px;
 }
 
 .parceiros h3 {
@@ -24,38 +24,30 @@
     padding: 2%;
 }
 
-@media (max-width: 768px) { 
-    
+@media (max-width: 768px) {
     .parceiros_logos {
         width: 100px;
         margin: 8px;
     }
-
     .parceiros h3 {
         font-size: 30px;
     }
-    
     .parceiros__conteudo {
         font-size: 20px;
         font-style: oblique;
     }
-
 }
 
-@media (max-width: 320px) { 
-    
+@media (max-width: 320px) {
     .parceiros_logos {
-        width: 60px; 
-       margin: 10px;
-       align-content: space-between;
+        width: 60px;
+        margin: 10px;
+        align-content: space-between;
     }
-
     .parceiros h3 {
         font-size: 20px;
     }
-    
     .parceiros__conteudo {
         font-size: 15px;
     }
-
 }

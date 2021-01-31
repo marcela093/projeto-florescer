@@ -1,21 +1,34 @@
-@font-face{
+@font-face {
     font-family: "SantElia";
     src: url("...assets/SantEliaRoughLine.otf")
 }
 
-.eventos{    
- 
+.eventos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
 }
 
-
-.redes-sociais{
-    text-align-last: center;
+.container_eventos {
+    flex-direction: column;
 }
 
-
-.imagem-eventos{    
+.imagem-eventos {
     object-fit: cover;
     object-position: 0 50%;
-    height: 35vh;
-   
+    height: 40vh;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+@media (max-width: 320px) {
+    .eventos {
+        flex-direction: column;
+    }
+    .imagem-eventos {
+        height: 200px;
+        margin: 0;
+    }
 }

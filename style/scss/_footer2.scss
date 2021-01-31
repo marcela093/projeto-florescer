@@ -1,11 +1,22 @@
-@font-face{
+@font-face {
     font-family: "SantElia";
     src: url("...assets/SantEliaRoughLine.otf")
 }
 
 .footer2 {
-    background-color:#ffc0cb;
+    background-color: #ffc0cb;
     height: 25px;
-
+    p {
+        margin: 0;
+    }
 }
 
+
+
+@media (max-width: 320px) { 
+    
+    .footer2 {
+        font-size: 14px;
+    }
+
+}

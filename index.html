@@ -12,12 +12,12 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         
         <div class="container">
             <div class="nav__imgs">
                 <img  class="foto-rosa" src="./assets/imgs marcela/rosa.png" alt="desenho de uma rosa cor de rosa">
-                <img src="./assets/imgs marcela/Layer 2.png" alt="logo casa florescer">
+                <img class="foto-logo" src="./assets/imgs marcela/Layer 2.png" alt="logo casa florescer">
             </div>
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
@@ -55,34 +55,16 @@
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="9000">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./assets/img_rosana/Enmascarar grupo 6.png" class="d-block w-100 img-carousel"
-                        alt="Slide 1 Grafite representando mulhereres florescendo">
-                    <div class="carousel-caption bg-secundary">
-                        <h5 class="text-white-50">Sejam bem vindos a Casa Florescer </h5>
-                        <p class="text-white-50">Grafite feito pela cartunista Laerte Coutinho</p>
-                    </div>
+                    <img class="d-block w-100 img-carousel" src="./assets/img_rosana/Enmascarar grupo 6.png"  alt="Slide 1 Grafite representando mulhereres florescendo">
                 </div>
                 <div class="carousel-item ">
-                    <img src="./assets/img_rosana/carousel_1.jpeg" class="d-block w-100 img-carousel" alt="Slide 2">
-                    <div class="carousel-caption bg-secundary">
-                        <h5>TRANSforme</h5>
-                        <p class="text-white">Grafite feito pelas moradoras da nossa casa</p>
-                    </div>
+                    <img class="d-block w-100 img-carousel" src="./assets/img_rosana/carousel_1.jpeg"  alt="Slide 2">
                 </div>
                 <div class="carousel-item ">
-                    <img src="./assets/img_rosana/carousel_4.jpeg" class="d-block w-100 img-carousel"
-                        alt="Slide 3 Moradoras da casa segurando a bandeira de visibilidade trans">
-                    <div class="carousel-caption bg-secundary">
-                        <h5></h5>
-                        <p class="text-white-50">Nossas meninas com a bandeira da visibilidade Trans</p>
-                    </div>
+                    <img class="d-block w-100 img-carousel" src="./assets/img_rosana/carousel_4.jpeg" alt="Slide 3 Moradoras da casa segurando a bandeira de visibilidade trans">                   
                 </div>
                 <div class="carousel-item img-carousel">
-                    <img src="./assets/img_rosana/carousel_2.jpeg" class="d-block w-100 img-carousel" alt="Slide 4">
-                    <div class="carousel-caption bg-secundary">
-                        <h5></h5>
-                        <p class="text-white-50">Outros grafites feitos pelas nossas meninas</p>
-                    </div>
+                    <img src="./assets/img_rosana/carousel_2.jpeg" class="d-block w-100 img-carousel" alt="Slide 4">                   
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -98,7 +80,7 @@
         <!-- Titulo da Página -->
         <div class=" m-3 mb-3 title"> 
             <h1 class=" text-center ">Casa Florescer</h1>
-            <p class="text-center  font-italic">CENTRO DE ACOLHIDA ESPECIAL PARA MULHERES TRANS E TRAVESTIS</p>
+            <p class="text-center  font-italic"><strong> CENTRO DE ACOLHIDA ESPECIAL PARA MULHERES TRANS E TRAVESTIS </strong></p>
 
         </div>
 
@@ -107,12 +89,12 @@
     
     <article class="container row article">
         <div class=" article__img ">
-            <img src="./assets/day/casaflorescer_entrada.png" alt="">
+            <img class="img-article" src="./assets/day/casaflorescer_entrada.png" alt="">
         </div>
 
-        <div class=" col-sm text-center article__conteudo">
+        <div id= "sobreSection" class=" col-sm text-center article__conteudo" >
             <h3>Sobre</h3>
-            <p class="rounded float-left  article__texto">
+            <p class="article__texto">
                 A Casa Florescer é um centro de acolhida pioneira no Brasil que acolhe e atende 30 mulhereres
                 transexuais e travestis. É administrada pela instituição Coordenação Regional das obras de Promoção
                 Humana - CROPH em parceria com a Secretaria Municipal de
@@ -121,7 +103,7 @@
         </div>
 
 
-    </article> -->
+    </article>
     <div>
   
     <main>        
@@ -130,7 +112,7 @@
                 alt="mulheres trans integrantes do projeto florescer em evento na casa">
         </div>
 
-        <div class="main__texto">
+        <div id="porqueSection" class="main__texto">
             <h3> Porque fazemos </h3>
             <p>
                 Estima-se que 10% da população brasileira seja LGBT+. Uma parte significativa dessa população é
@@ -153,7 +135,7 @@
         </div>
     </main>
 
-    <section class="carrossel d-flex flex-column align-items-center">
+    <section id= "historiasSection" class="carrossel d-flex flex-column align-items-center">
         <h3>Historias </h3>
         <div id="carouselExampleIndicators" class="carousel slide jennifer" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -184,7 +166,7 @@
         </div>
     </section>
 
-    <section class="parceiros">
+    <section id="parceirosSection" class="parceiros">
         <div class="parceiros__conteudo">
             NOSSOS PARCEIROS            
         </div>
@@ -220,20 +202,20 @@
     </section>
 
 
-    <section class="container row eventos d-flex">
+    <section id="eventosSection" class="container row eventos d-flex">
         <div class="d-flex flex-column justify-content-center">
             <h3 class="text-center">Eventos</h3>
-            <p>Acompanhe a agenda da Casa Florescer nas redes sociais</p>
+            <p class="eventos__texto">Acompanhe a agenda da Casa Florescer nas redes sociais</p>
         </div>   
 
-        <div class="redes-sociais col-sm align-self-center mb-3">
+        <div class="container_um">
             <a href="https://www.facebook.com/florecerCA/" target="_blank">
                 <img src="./assets/Eventos/facebook-azul.png" alt="Link Facebook"></a>
             <a href="https://www.instagram.com/caeflorescer/" target="_blank">
                 <img src="./assets/Eventos/instagram-azul.png" alt="Link Instagram"></a>
         </div>        
-
-        <div class="imagem-eventos mb-3">
+    </div>
+        <div class="container_tres">
             <img class="imagem-eventos" src="./assets/Eventos/Imagem-eventos.png" alt="Foto do mural grafitado com mulheres sobre o gramado">
         </div>                
     </section>
@@ -241,10 +223,10 @@
 <!-- Romenia -->
 
 
-    <section class="ajuda d-flex  align-items-center flex-column justify-content-center">
+    <section id="ajudaSection" class="ajuda d-flex text-center  align-items-center flex-column justify-content-center">
         <div class="ajuda__texto d-flex justify-content-center flex-column justify-content-center align-items-center">
             <h4>Como ajudar</h4>
-            <h2>Precisamos de sua ajuda</h2>
+            <h2>Precisamos da sua ajuda</h2>
             <p class="ajuda__p text-center">Ajude-nos a criar um mundo mais inclusivo. Todo o dinheiro é destinado para as residentes e infraestrutura da casa.</p>
         </div>
         <div class="ajuda__contato d-flex justify-content-center">
@@ -254,20 +236,22 @@
         </div>
         
     </section>
-    <footer class="footer1 d-flex row justify-content-around align-items-lg-center p-2 justify-content-between">
+    <!-- <footer class="footer1 d-flex row justify-content-around align-items-lg-center justify-content-between"> -->
+            <footer class="footer1">
         <div>
             <img class="foto-rosa" src="./assets/imgs marcela/rosa.png" alt="desenho de uma rosa cor de rosa">
             <img src="./assets/imgs marcela/Layer 2.png" alt="logo casa florescer">
         </div>
         <div class="contato row">
-            <p>Contatos</p>
+            
             <a href="https://pt-br.facebook.com/florecerCA/" target="blank"><img src="./assets/imgs marcela/facebook-circular-logo.png" alt="logo facebook"></a>
             
             <a href="https://www.instagram.com/caeflorescer/" target="blank"><img src="./assets/imgs marcela/instagram.png" alt="logo instagram"></a>
         </div>
     </footer>
     <footer class="footer2">
-        <div class="links text-center">
+        <p class="text-center blue">Feito com amor por alunas da <a class="blue" href="https://github.com/marcela093/projeto-florescer/blob/marcela093/readme.md" target="_blank">{<strong>re</strong>programa}</a></p>
+        <!-- <div class="links text-center">
             <a href="https://www.linkedin.com/in/adrielly-gomes-859276191/" target=_blank class="text-white">Adrielly
                 Gomes |</a>
             <a href="https://www.linkedin.com/in/daiana-lugo-75159133/" target=_blank class="text-white">Daiana Lugo |</a>
@@ -277,11 +261,14 @@
                 Souza |</a>
             <a href="https://www.linkedin.com/in/romeniaishiyama/" target=_blank class="text-white">Romênia Ishiyama |</a>
             <a href="https://www.linkedin.com/in/rosana-em%C3%ADdio-184245b0/" target=_blank class="text-white">Rosana
-                Emídio |</a>
-        </div>
+                Emídio </a>
+        </div> -->
 
         <!-- Romenia -->
     </footer>
+
+
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

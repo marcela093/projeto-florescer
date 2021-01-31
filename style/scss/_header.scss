@@ -1,12 +1,13 @@
 header{
     height: 100%;
     width: 100%;
+    padding-top: 82px;
 }
 
 .img-carousel{
     object-fit: cover;
     object-position: 0 50%;
-    height: 64vh;
+    height: 85vh;
 
 }
 
@@ -22,6 +23,21 @@ header p{
 }
 
 .title{
-    height: 140px;
+    height: 204px;
 }
+
+@media (min-width:426px) and (max-width: 768px){
+    .img-carousel {
+        object-position: 42% 31%;
+        height: 84vh;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .img-carousel {
+        object-position: 42% 31%;
+        height: 42vh;
+    }
+}
+
 
